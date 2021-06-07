@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 2%;
+}
+
+/* Style Logo */
+header > img {
+  display: block;
+  width: 30%;
+  height: 30%;
+  margin: auto;
+}
+
+/* Style motto */
+header > h1 {
+  color: #00dd02;
+  font-size: 250%;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.5%;
+}
+
+main {
+  width: 85%;
+  margin: auto;
+}
+
+.navigationButtons {
+  background-color: #00dd02;
+}
+
+.buttonsContainer {
+  padding: 2%;
+  width: 330px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 2%;
+}
+
+.scooter {
+  color: white;
+  margin-top: 2%;
+}
+
+#chargingPercentageGino {
+  width: 40%;
+  height: 35px;
+  background-color: orange;
+  border-radius: 6px;
+}
+
+#chargingPercentageMike {
+  width: 65%;
+  height: 35px;
+  background-color: #00dd02;
+  border-radius: 6px;
+}
+
+#chargingPercentageFede {
+  width: 20%;
+  height: 35px;
+  background-color: red;
+  border-radius: 6px;
+}
